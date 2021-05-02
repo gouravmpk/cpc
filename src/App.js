@@ -7,6 +7,18 @@ import Services from './components/pages/Services';
 import Book from './components/pages/Book';
 import SignUp from './components/pages/SignUp';
 import Rats from './components/pages/Rats';
+import Silverfish from './components/pages/Sliverfish';
+import Spider from './components/pages/Spider';
+import Mosquitoes from './components/pages/Mosquitoes';
+import Snakes from './components/pages/Snakes';
+import Bandicoots from './components/pages/Bandicoots';
+import Termites from './components/pages/Termites';
+import Beehive from './components/pages/Beehive';
+import Cockroaches from './components/pages/cockroaches';
+import Ants from './components/pages/Ants';
+import BedBugs from './components/pages/Bedbugs';
+import Lizard from './components/pages/Lizard';
+import WoodBorer from './components/pages/WoodBorer';
 
 function App() {
   return (
@@ -19,6 +31,20 @@ function App() {
           <Route path='/book' component={Book} />
           <Route path='/sign-up' component={SignUp} />
           <Route path='/rats' component={Rats} />
+          <Route path='/spider' component={Spider} />
+          <Route path='/mosquitoes' component={Mosquitoes} />
+          <Route path='/snakes' component={Snakes} />
+          <Route path='/bandicoots' component={Bandicoots} />
+          <Route path='/bee-hive' component={Beehive} />
+          <Route path='/termite' component={Termites} />
+          <Route path='/cockroaches' component={Cockroaches} />
+          <Route path='/silverfish' component={Silverfish} />
+          <Route path='/ants' component={Ants} />
+          <Route path='/bed-bugs' component={BedBugs} />
+          <Route path='/lizard' component={Lizard} />
+          <Route path='/wood-borer' component={WoodBorer} />
+        
+
         </Switch>
       </Router>
     </>

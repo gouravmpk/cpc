@@ -5,7 +5,6 @@ import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Services from './components/pages/Services';
 import Book from './components/pages/Book';
-import SignUp from './components/pages/SignUp';
 import Rats from './components/pages/Rats';
 import Silverfish from './components/pages/Sliverfish';
 import Spider from './components/pages/Spider';
@@ -19,6 +18,7 @@ import Ants from './components/pages/Ants';
 import BedBugs from './components/pages/Bedbugs';
 import Lizard from './components/pages/Lizard';
 import WoodBorer from './components/pages/WoodBorer';
+import Housefiles from './components/pages/housefiles';
 
 function App() {
   return (
@@ -29,7 +29,6 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/services' component={Services} />
           <Route path='/book' component={Book} />
-          <Route path='/sign-up' component={SignUp} />
           <Route path='/rats' component={Rats} />
           <Route path='/spider' component={Spider} />
           <Route path='/mosquitoes' component={Mosquitoes} />
@@ -40,9 +39,10 @@ function App() {
           <Route path='/cockroaches' component={Cockroaches} />
           <Route path='/silverfish' component={Silverfish} />
           <Route path='/ants' component={Ants} />
-          <Route path='/bed-bugs' component={BedBugs} />
+          <Route path='/bedbugs' component={BedBugs} />
           <Route path='/lizard' component={Lizard} />
           <Route path='/wood-borer' component={WoodBorer} />
+          <Route path='/housefiles' component={Housefiles} />
         
 
         </Switch>

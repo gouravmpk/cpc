@@ -5,20 +5,24 @@ import Footer from '../Footer';
 
 export default function Bandicoots(){
     return(<>
-        <div className='rats'>
-        </div> <div className='text-center'><h1>Check out our Amazing Services!</h1></div>
-        
-        
-        <div className='text-center'>
-        <em>
-        Rodents/Rats are one of the strongest surviving mammals found in all climates and conditions. rodents are able to adapt to almost any environmental changes. As our area becomes more populated, rodents will and have become more prevalent. Rodents not only are vectors of disease, but also cause damage to structures and their contents. Due to the constant need to gnawm electrical and mechanical components of structures are in jeopardy with rodent invasion.
-        If you believe rodents may have invaded your home or office. just call us and order a rodent survey and we will do the rest!
-        </em>
+        <div className='bandicoots'>
+        </div> <div className='text-center-bandicoots'><h1>Bandicoot</h1></div>
+        <div className='text-center-bandicoots'>
+        <p>
+        Bandicoot is a giant rat and can be up to 40cms long, including the tail. Bandicoot rats pose a significant health risk to humans, both adults and babies, as well as to our pets. Bandicoot rats feed mainly on insects, larvae, grass seeds and fruits in lawn and garden. The construct burrows in garden plants and enter into your building.
+       </p>
+        <br/>
+        <h3>DISEASES CAUSED BY BANDICOOTS</h3>
+        <br/>
+       <p>The spread of many common diseases, such as Salmonella, Weil's disease, E.coli and TB, is attributed to Bandicoot rats. They also carry fleas, mites and ticks and can cause acute allergic reactions. Any bandicoot rat problem inside the home must be treated urgently, not only to prevent the spread of disease but also because they are extremely aggressive if threatened.</p>
+       <br/>
+       <h3>FOR CONTROL OF BANDICOOTS</h3>
+       <br/>
+       <p>ALP tablets are placed inside the burrows made by the bandicoots and the same are closed down with mud. After the said treatment, the bandicoots do not come in the said area.</p>
         </div>
-        <div class="gallery">
-        <img src="/images/rat.png"  width="600" height="400" ></img>
+        <div class="gallery-bandicoots">
+        <img class="bandicoots-table"src="/images/banP.png" alt="table" width="600" height="400" ></img>
          </div>
-     
       <Footer />
     </>
 

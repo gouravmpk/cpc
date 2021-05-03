@@ -5,18 +5,24 @@ import Footer from '../Footer';
 
 export default function Silverfish(){
     return(<>
-        <div className='rats'>
-        </div> <div className='text-center'><h1>Check out our Amazing Services!</h1></div>
-        
-        
-        <div className='text-center'>
-        <em>
-        Rodents/Rats are one of the strongest surviving mammals found in all climates and conditions. rodents are able to adapt to almost any environmental changes. As our area becomes more populated, rodents will and have become more prevalent. Rodents not only are vectors of disease, but also cause damage to structures and their contents. Due to the constant need to gnawm electrical and mechanical components of structures are in jeopardy with rodent invasion.
-        If you believe rodents may have invaded your home or office. just call us and order a rodent survey and we will do the rest!
-        </em>
+        <div className='silverfish'>
+        </div> <div className='text-center-silverfish'><h1>Silverfish</h1></div>
+
+        <div className='text-center-silverfish'>
+        <p>
+         Silverfish are the secret agents of household pests. Typically attracted to cool, damp places, but capable of thriving in most climates, silverfish are common but, because of their quick nocturnal movements, they're incredibly hard to spot.
+         </p>
+        <br/>
+       <p1>Capable of thriving in most climates, silverfish prefer to dwell in dark, damp areas such as basements, attics, kitchens and bathrooms. They are especially attracted to paper and damp clothing. Commonly found in stored boxes in garages and sheds.</p1>
+        <br/>
+        <p>Silverfish feed on carbohydra tes particularly sugars and starches. Cellulose, shampoos, glue in books, linen, silk and dead insects may be food sources. Silver Fish chomp on almost anything, including paper, book bindings, wallpaper and clothing and are commonly found in the basement, attic, kitchen or bathroom, as well as in storage boxes in garages and sheds.</p>
+       <br/>
+       <strong>FOR CONTROL OF SILVER FISH</strong>
+       <br/>
+       <p>Chemical is sprayed in and around the area with the help of skilled technicians.</p>
         </div>
-        <div class="gallery">
-        <img src="/images/rat.png"  width="600" height="400" ></img>
+        <div class="gallery-silverfish">
+        <img  class="silverfish-table"src="./images/silverP.png" alt="Materials"/>
          </div>
      
       <Footer />

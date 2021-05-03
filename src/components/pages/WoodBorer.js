@@ -5,20 +5,25 @@ import Footer from '../Footer';
 
 export default function WoodBorer(){
     return(<>
-        <div className='rats'>
-        </div> <div className='text-center'><h1>Check out our Amazing Services!</h1></div>
-        
-        
-        <div className='text-center'>
-        <em>
-        Rodents/Rats are one of the strongest surviving mammals found in all climates and conditions. rodents are able to adapt to almost any environmental changes. As our area becomes more populated, rodents will and have become more prevalent. Rodents not only are vectors of disease, but also cause damage to structures and their contents. Due to the constant need to gnawm electrical and mechanical components of structures are in jeopardy with rodent invasion.
-        If you believe rodents may have invaded your home or office. just call us and order a rodent survey and we will do the rest!
-        </em>
+        <div className='woodborer'>
+        </div> <div className='text-center-woodborer'><h1>Wood Borers</h1></div>
+
+        <div className='text-center-woodborer'>
+            <strong>WOOD BORER</strong>
+            <br/>
+            <p>Woodborers are extremely hazardous and wood destroying beetles also known as the old house borer. The old house borer is a serious pest in homes. They infest seasoned softwoods, especially pine. They are actually more common in new homes. Wood borers invade and damage wood furniture as well as structural and decorative wood inside of buildings. The beetle larvae feed in and do most of the damage to wood and when they reach the adult stage, they emerge through round exit holes, which they create by chewing through the wood surface. Adults of some species also bore exit holes through plaster, plastic, and even soft metals that might cover the underlying wood.</p>
+        <br/>
+        <p>
+        Most insecticides for wood-boring beetles are restricted and can be used only by certified pest control operators Since pest ontrol operators have access to a wider range of insecticides and equipment, your best option may be to employ a professional.
+        </p>
+        <br/>
+        <strong>FOR CONTROL OF WOOD BORER</strong>
+        <br/>
+       <p1>The entire wooden furniture and fixtures are to given chemical treatment. The Wood Borers main source of food is softwoods, hence the entire premises has to be given chemical treatment to get rid of them.</p1>
         </div>
-        <div class="gallery">
-        <img src="/images/rat.png"  width="600" height="400" ></img>
+        <div class="gallery-woodborer">
+        <img  class="woodborer-table"src="./images/woodP.png" alt="Materials"/>
          </div>
-     
       <Footer />
     </>
 

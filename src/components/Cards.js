@@ -12,60 +12,60 @@ function Cards() {
             <CardItem
               src='images/house-flies.jpg'
               text='Get rid of house flies'
-              label='Clean Home'
-              path='/services'
+              label='House Flies'
+              path='/housefiles'
             />
             <CardItem
               src='images/rat.png'
               text='Rats can cause major health problems'
-              label='Healthy Home'
+              label='Rats/Roadent'
               path='/rats'
             />
             <CardItem
               src='images/Cockroaches.jpg'
               text='Cockroaches most common problem in house'
-              label='Pest Free Home'
+              label='Cockroaches'
               path='/cockroaches'
             />
         
           </ul>
           <ul className='cards__items'>
           <CardItem
-              src='images/Mosq.jpg'
+              src='images/mosqc.jpg'
               text='Mosquitoes casue deadly deasies like malaria and dengu'
-              label='Pest Free Homeo'
+              label='Mosquitoes'
               path='/mosquitoes'
             />
             <CardItem
               src='images/silverfish.jpg'
               text='Silverfish can Damage your personal belongings such as books'
-              label='Safe Books'
+              label='Silverfish'
               path='/silverfish'
             />
             <CardItem
               src='images/bedbugs.jpg'
               text='Ride through the Sahara Desert on a guided camel tour'
-              label='Good Night Sleep'
-              path='/bed-bugs'
+              label='Bedbugs'
+              path='/bedbugs'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
               src='images/spider.jpg'
               text='Get rid of web weaver'
-              label='Clean Home'
+              label='Spider'
               path='/spider'
             />
             <CardItem
               src='images/Snake.jpg'
               text='Keep snakes out of your home'
-              label='Safe Enviorment'
+              label='Snakes'
               path='/snakes'
             />
             <CardItem
               src='images/bee.jpg'
               text='A bee sting is a wound caused by the stinger from a female bee being injected into flesh'
-              label='Bee Stings'
+              label='Bees'
               path='/bee-hive'
             />
             
@@ -74,19 +74,19 @@ function Cards() {
             <CardItem
               src='images/lizard.jpg'
               text='Get rid of those wall climbers'
-              label='Healty Home'
+              label='Lizards'
               path='/lizard'
             />
             <CardItem
               src='images/termite.jpg'
               text='Termites can easly cause damage to property'
-              label='Safe Home'
+              label='Termite'
               path='/termite'
             />
             <CardItem
               src='images/wood-borer.jpg'
               text='Protect your furniture from these small bugs '
-              label='Safe Home'
+              label='Woodborer'
               path='/wood-borer'
             />
           </ul>
@@ -94,9 +94,9 @@ function Cards() {
             
             <CardItem
               src='images/ant.jpg'
-              text='Ant info'
+              text='Though harmless, they can be a nuisance when they get into your home or business premises.'
               label='Ant'
-              path='/products'
+              path='/ants'
             />
             <CardItem
               src='images/bandi.jpg'
@@ -112,3 +112,4 @@ function Cards() {
 }
 
 export default Cards;
+ 

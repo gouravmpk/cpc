@@ -48,17 +48,7 @@ function Navbar() {
               >
                 Sanitization
               </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/book'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-               About Us
-              </Link>
-            </li>
-
+            </li> 
             <li className='nav-item'>
               <Link
                 to='/book'

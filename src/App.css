@@ -38,17 +38,8 @@ object-fit: contain;
   font-size: 100px;
 }
 
-.sign-up {
-  background-image: url('/images/img-8.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
-}
-
 .rats {
-  background: url('/images/rat.png') center center/cover no-repeat;
+  background: url('/images/rat1.jpg') center center/cover no-repeat;
   height: 70vh;
   width: 100%;
   display: flex;
@@ -59,14 +50,462 @@ object-fit: contain;
 
 .text-center{
   margin: auto;
-  width: 50%;
-
+  width: 70%;
+  font-family: Arial, Helvetica, sans-serif;
   padding: 20px;
+  color: var(--theme-ui-colors-text,#121212);
+  line-height: 1.6;
+  text-align: justify;
 }
+
+
+
+
 .gallery {
-  margin-left: 30%;
-  
-  border: 1px solid #ccc;
-  display: block;
-  width: 180px;
+  margin-left: 28%;
+ /* border: 1px solid #ccc; */
+ display: block;
+  width: 50%;
+  height:auto;
 }
+.rats-table{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  min-height: auto;
+  min-width: auto;
+  vertical-align: middle; 
+}
+.cockroach {
+   background: url('/images/Cockroaches.jpg') center center/cover no-repeat; 
+   height: 70vh;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ 
+ }
+ 
+ .text-center-cockroach{
+   margin: auto;
+   width: 70%;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 20px;
+   color: var(--theme-ui-colors-text,#121212);
+   line-height: 1.6;
+   text-align: justify;
+ }
+ .gallery-cockroach {
+   margin-left: 28%;
+  display: block;
+   width: 50%;
+   height:auto;
+ }
+ .cockroach-table{
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   min-height: auto;
+   min-width: auto;
+   vertical-align: middle;
+ }
+
+ .mosquito {
+   background: url('/images/mosq1.jpg') center center/cover no-repeat; 
+   height: 70vh;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ 
+ }
+ 
+ .text-center-mosquito{
+   margin: auto;
+   width: 70%;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 20px;
+   color: var(--theme-ui-colors-text,#121212);
+   line-height: 1.6;
+   text-align: justify;
+ }
+ .gallery-mosquito {
+   margin-left: 28%;
+  display: block;
+   width: 50%;
+   height:auto;
+ }
+ .mosquito-table{
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   min-height: auto;
+   min-width: auto;
+   vertical-align: middle;
+ }
+
+ .silverfish {
+   background: url('/images/silverfish.jpg') center center/cover no-repeat; 
+   height: 70vh;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ 
+ }
+ 
+ .text-center-silverfish{
+   margin: auto;
+   width: 70%;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 20px;
+   color: var(--theme-ui-colors-text,#121212);
+   line-height: 1.6;
+   text-align: justify;
+ }
+ .gallery-silverfish {
+   margin-left: 28%;
+  display: block;
+   width: 50%;
+   height:auto;
+ }
+ .silverfish-table{
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   min-height: auto;
+   min-width: auto;
+   vertical-align: middle;
+ }
+
+ .bedbugs {
+  background: url('/images/bedbugs.jpg') center center/cover no-repeat; 
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+ .text-center-bedbugs{
+  margin: auto;
+  width: 70%;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  color: var(--theme-ui-colors-text,#121212);
+  line-height: 1.6;
+  text-align: justify;
+}
+.gallery-bedbugs {
+  margin-left: 28%;
+ display: block;
+  width: 50%;
+  height:auto;
+}
+.bedbugs-table{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  min-height: auto;
+  min-width: auto;
+  vertical-align: middle;
+}
+
+.spiders {
+   background: url('/images/spider.jpg') center center/cover no-repeat; 
+   height: 70vh;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ 
+ }
+ 
+ .text-center-spiders{
+   margin: auto;
+   width: 70%;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 20px;
+   color: var(--theme-ui-colors-text,#121212);
+   line-height: 1.6;
+   text-align: justify;
+ }
+ .gallery-spiders {
+   margin-left: 28%;
+  display: block;
+   width: 50%;
+   height:auto;
+ }
+ .spiders-table{
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   min-height: auto;
+   min-width: auto;
+   vertical-align: middle;
+ }
+
+ .snakes {
+  background: url('/images/snake2.jpg') center center/cover no-repeat; 
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ 
+ }
+ 
+ .text-center-snakes{
+   margin: auto;
+   width: 70%;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 20px;
+   color: var(--theme-ui-colors-text,#121212);
+   line-height: 1.6;
+   text-align: justify;
+ }
+ .gallery-snakes {
+   margin-left: 28%;
+  display: block;
+   width: 50%;
+   height:auto;
+ }
+ .snakes-table{
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   min-height: auto;
+   min-width: auto;
+   vertical-align: middle;
+}
+.beehive {
+   background: url('/images/bee1.jpg') center center/cover no-repeat; 
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+ 
+ .text-center-beehive{
+   margin: auto;
+   width: 70%;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 20px;
+   color: var(--theme-ui-colors-text,#121212);
+   line-height: 1.6;
+   text-align: justify;
+ }
+ .gallery-beehive {
+   margin-left: 28%;
+  display: block;
+   width: 50%;
+   height:auto;
+ }
+ .beehive-table{
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   min-height: auto;
+   min-width: auto;
+   vertical-align: middle;
+ }
+ .lizards {
+   background: url('/images/lizard.jpg') center center/cover no-repeat; 
+   height: 70vh;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ 
+ }
+ 
+ .text-center-lizards{
+   margin: auto;
+   width: 70%;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 20px;
+   color: var(--theme-ui-colors-text,#121212);
+   line-height: 1.6;
+   text-align: justify;
+ }
+ .gallery-lizards {
+   margin-left: 28%;
+  display: block;
+   width: 50%;
+   height:auto;
+ }
+ .lizards-table{
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   min-height: auto;
+   min-width: auto;
+   vertical-align: middle;
+ }
+
+ .termites {
+     background: url('/images/termite2.jpg') center center/cover no-repeat; 
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ 
+ }
+ 
+ .text-center-termites{
+   margin: auto;
+   width: 70%;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 20px;
+   color: var(--theme-ui-colors-text,#121212);
+   line-height: 1.6;
+   text-align: justify;
+ }
+ .gallery-termites {
+   margin-left: 28%;
+  display: block;
+   width: 50%;
+   height:auto;
+ }
+ .termites-table{
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   min-height: auto;
+   min-width: auto;
+   vertical-align: middle;
+ }
+ .woodborer {
+   background: url('/images/wood1.jpg') center center/cover no-repeat; 
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ 
+ }
+ 
+ .text-center-woodborer{
+   margin: auto;
+   width: 70%;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 20px;
+   color: var(--theme-ui-colors-text,#121212);
+   line-height: 1.6;
+   text-align: justify;
+ }
+ .gallery-woodborer {
+   margin-left: 28%;
+  display: block;
+   width: 50%;
+   height:auto;
+ }
+ .woodborer-table{
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   min-height: auto;
+   min-width: auto;
+   vertical-align: middle;
+ }
+ .ants {
+  background: url('/images/ant.jpg') center center/cover no-repeat; 
+   height: 70vh;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ 
+ }
+ 
+ .text-center-ants{
+   margin: auto;
+   width: 70%;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 20px;
+   color: var(--theme-ui-colors-text,#121212);
+   line-height: 1.6;
+   text-align: justify;
+ }
+ .gallery-ants {
+   margin-left: 28%;
+  display: block;
+   width: 50%;
+   height:auto;
+ }
+ .ants-table{
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   min-height: auto;
+   min-width: auto;
+   vertical-align: middle;
+ }
+ .bandicoots {
+ background: url('/images/bandi.jpg') center center/cover no-repeat; 
+   height: 70vh;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ 
+ }
+ 
+ .text-center-bandicoots{
+   margin: auto;
+   width: 70%;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 20px;
+   color: var(--theme-ui-colors-text,#121212);
+   line-height: 1.6;
+   text-align: justify;
+ }
+ .gallery-bandicoots {
+   margin-left: 28%;
+  display: block;
+   width: 50%;
+   height:auto;
+ }
+ .bandicoots-table{
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   min-height: auto;
+   min-width: auto;
+   vertical-align: middle;
+ }
+ .flies {
+  background: url('/images/house-flies.jpg') center center/cover no-repeat; 
+   height: 100vh;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ 
+ }
+ 
+ .text-center-flies{
+   margin: auto;
+   width: 70%;
+   font-family: Arial, Helvetica, sans-serif;
+   padding: 20px;
+   color: var(--theme-ui-colors-text,#121212);
+   line-height: 1.6;
+   text-align: justify;
+ }
+ .gallery-flies {
+   margin-left: 28%;
+  display: block;
+   width: 50%;
+   height:auto;
+ }
+ .flies-table{
+   width: 80%;
+   height: 100%;
+   margin: 0;
+   min-height: auto;
+   min-width: auto;
+   vertical-align: middle;
+ }
